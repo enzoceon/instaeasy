@@ -60,7 +60,7 @@ function triggerDownload(videoUrl: string) {
   if (typeof window === "undefined") return;
 
   const randomTime = new Date().getTime().toString().slice(-8);
-  const filename = `gram-grabberz-${randomTime}.mp-4`;
+  const filename = `instaeasy-site.mp-4`;
 
   // Construct the URL to your proxy API route
   const proxyUrl = new URL("/api/download-proxy", window.location.origin); // Use relative path + origin
